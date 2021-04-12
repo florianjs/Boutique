@@ -20,7 +20,7 @@
     ></nuxt-link>
 
     <ul class="flex w-full justify-end">
-      <nuxt-link to="search">Search</nuxt-link>
+      <nuxt-link to="/search">Search</nuxt-link>
     </ul>
   </div>
 </template>

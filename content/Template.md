@@ -1,37 +1,26 @@
 ---
-title: Nutrition for climbers
-price: 19
-buy: https://flurly.com/c/lyra-tailwindcss-template
-type: product
-category: nutrition
-published: true
-description: How to burn calories to climb higher
-image: https://images.unsplash.com/photo-1525718772071-6ddb36ff174d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80
-alt: A man climbing
-video: /videos/nutrition.mp4
-socialProof:
+title: <!-- String -->
+price: <!-- Number -->
+buy: <!-- String - Link to your product -->
+type: <!-- String -->
+category: <!-- String -->
+published: <!-- Boolean -->
+description: <!-- String -->
+image: <!-- String - Link to your hero image -->
+alt: <!-- String -->
+socialProof: <!-- Array of Objects. Example
   [
     {
       text: 'Wow. So much climbing.',
       author: '@elonmusk',
       link: 'https://twitter.com/elonmusk/status/1380781539647053826',
     },
-    {
-      text: 'Climbing is one of my favorite activity.',
-      author: '@billgates',
-      link: 'https://twitter.com/elonmusk/status/1380781539647053826',
-    },
-    {
-      text: 'Never gonna let you down.',
-      author: '@rickastley',
-      link: 'https://twitter.com/elonmusk/status/1380781539647053826',
-    },
-  ]
-gallery:
+  ] -->
+video: <!-- String -->
+gallery: <!-- Array of Objects. Example
   [
     { src: '/img/gallery1.jpg', alt:'alt text' },
-    { src: '/img/gallery2.jpg', alt:'alt text' },
-  ]
+  ] -->
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis a condimentum vitae sapien pellentesque. Vel pharetra vel turpis nunc eget. Sodales neque sodales ut etiam sit amet. Quis hendrerit dolor magna eget est lorem ipsum. Scelerisque eu ultrices vitae auctor eu augue ut. Purus sit amet luctus venenatis lectus. Nisi lacus sed viverra tellus in hac habitasse. Integer eget aliquet nibh praesent tristique. Consequat id porta nibh venenatis cras sed felis eget velit.

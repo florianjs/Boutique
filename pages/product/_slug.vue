@@ -36,19 +36,19 @@
         class="col-span-3 lg:col-span-1 h-96 w-full object-cover rounded-md"
       />
       <div class="flex text-justify flex-col col-span-3 lg:col-span-2">
-        <h2 class="text-3xl py-4">{{ product.description }}</h2>
+        <h2 class="text-3xl font-semibold py-4">{{ product.description }}</h2>
         <nuxt-content class="text-gray-800" :document="product" />
       </div>
     </section>
     <section
       v-if="product.socialProof"
-      class="p-4 mx-auto w-full h-64 grid grid-cols-1 md:grid-cols-3 gap-4"
+      class="p-4 mx-auto w-full h-48 grid grid-cols-1 md:grid-cols-3 gap-4"
     >
       <a
         v-for="item in product.socialProof"
         :key="item.id"
         :href="item.link"
-        class="shadow rounded-md p-4 bg-white transform duration-150 ease-in-out hover:-translate-y-2"
+        class="flex flex-col justify-evenly shadow rounded-md p-4 bg-white transform duration-150 ease-in-out hover:-translate-y-2"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .twitter {
   color: #1da1f2;
 }
@@ -107,5 +107,11 @@ export default {
 }
 .pricing {
   @apply flex ml-2 items-center font-bold;
+}
+.nuxt-content h2 {
+  @apply text-2xl py-4;
+}
+.nuxt-content h {
+  @apply text-xl;
 }
 </style>

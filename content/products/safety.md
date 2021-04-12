@@ -34,18 +34,8 @@ gallery:
   ]
 ---
 
-https://images.unsplash.com/photo-1516902663607-8d25785663fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=628&q=80
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis a condimentum vitae sapien pellentesque. Vel pharetra vel turpis nunc eget. Sodales neque sodales ut etiam sit amet. Quis hendrerit dolor magna eget est lorem ipsum. Scelerisque eu ultrices vitae auctor eu augue ut. Purus sit amet luctus venenatis lectus. Nisi lacus sed viverra tellus in hac habitasse. Integer eget aliquet nibh praesent tristique. Consequat id porta nibh venenatis cras sed felis eget velit.
 
-Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
+## Mattis pellentesque id nibh tortor id aliquet lectus proin.
 
-## Writing content
-
-Learn how to write your `content/`, supporting Markdown, YAML, CSV and JSON: https://content.nuxtjs.org/writing.
-
-## Fetching content
-
-Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetching.
-
-## Displaying content
-
-Learn how to display your Markdown content with the `<nuxt-content>` component directly in your template: https://content.nuxtjs.org/displaying.
+Dictum non consectetur a erat nam at lectus urna duis. Mus mauris vitae ultricies leo integer malesuada nunc. Semper viverra nam libero justo laoreet sit amet. Nunc sed velit dignissim sodales ut eu. Sit amet massa vitae tortor. In cursus turpis massa tincidunt dui ut ornare. Non odio euismod lacinia at quis risus sed vulputate. Tristique nulla aliquet enim tortor at auctor urna nunc. Tristique senectus et netus et malesuada. Risus nullam eget felis eget nunc lobortis mattis aliquam. Duis at tellus at urna condimentum mattis pellentesque. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Enim nec dui nunc mattis enim ut tellus elementum. Ut placerat orci nulla pellentesque dignissim enim. Augue mauris augue neque gravida in fermentum et sollicitudin. Amet aliquam id diam maecenas ultricies mi eget mauris pharetra. Varius quam quisque id diam vel.
