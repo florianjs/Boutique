@@ -4,22 +4,19 @@
       class="h-screen flex justify-center items-center bg-cover"
       style="background-image: url(/img/bg.jpg)"
     >
-      <h1 class="text-white text-center text-4xl w-3/4 sm:text-6xl font-light">
+      <!-- SECTION: Title -->
+      <h1 class="title-home">
         Learn how to climb with the best video courses.
       </h1>
+      <!-- !SECTION: Title -->
     </section>
     <section class="grid md:grid-cols-3 gap-4 md:w-3/4 mx-auto p-8">
       <div class="w-full col-span-3 lg:col-span-1 h-96 relative">
-        <video
-          class="absolute rounded-md shadow-xl w-full h-full object-cover"
-          playsinline
-          autoplay
-          muted
-          loop
-          id="bgvid"
-        >
+        <!-- SECTION: Video -->
+        <video class="video-home" playsinline autoplay muted loop id="bgvid">
           <source src="~assets/videos/video.mp4" type="video/mp4" />
         </video>
+        <!-- !SECTION: Video -->
       </div>
       <div
         class="flex items-center justify-center text-center col-span-3 lg:col-span-2 flex-col"
@@ -70,5 +67,11 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.title-home {
+  @apply text-white text-center text-4xl w-3/4 sm:text-6xl font-light;
+}
+.video-home {
+  @apply absolute rounded-md shadow-xl w-full h-full object-cover;
 }
 </style>
